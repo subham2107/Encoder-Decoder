@@ -3,36 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="commonstyles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
   <script defer src="./URLEncodeDecode.js"></script>
   <title>URLEncodeDecode</title>
   
 
 </head>
 <body>
-  <header>
-    <h1>Encoder/Decoder</h1>
+  <header class="navbar">
+    <div style="font-size: 30px;">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</div>
+      <div class="dropdown-nav">Encoder/Decoder <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
+      <div class="dropdown-content">
+        <a href="./Base64Encode.html">Base64 Encode</a>
+        <a href="./Base64Decode.html">Base64 Decode</a>
+        <a href="#">URL Encode Decode</a>
+      </div>
+      </div>
+      <div class="dropdown-nav">Hash Generator <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
+      <div class="dropdown-content">
+        <a href="./MD5HashGenerator.html">MD5 Hash Generator</a>
+        <a href="./SHA1HashGenerator.html">SHA-1 Hash Generator</a>
+        <a href="./SHA256HashGenerator.html">SHA-256 Hash Generator</a>
+        <a href="./SHA512HashGenerator.html">SHA-512 Hash Generator</a>
+      </div>
+      </div>
+      <div class="dropdown-nav">Color Converter</div>
+      <div class="dropdown-nav">Time Converter</div> 
+      <div class="dropdown-nav">Number Base Converter</div>
+      <div class="dropdown-nav">String Utilities</div>
+      <div class="dropdown-nav">Unit Converter</div>       
   </header>
-
-  <nav>
-    <p>Check out other encoder/decoders here:</p>
-    <ul>
-      <li><a href="./Base64Encode.html">Base64 Encode</a></li>
-      <li><a href="./Base64Decode.html">Base64 Decode</a></li>
-      <li><a href="./MD5HashGenerator.html">MD5 Hash Generator</a></li>
-      <li><a href="./SHA1HashGenerator.html">SHA-1 Hash Generator</a></li>
-      <li><a href="./SHA256HashGenerator.html">SHA-256 Hash Generator</a></li>
-      <li><a href="./SHA512HashGenerator.html">SHA-512 Hash Generator</a></li>
-    </ul>             
-  </nav>
-
   <main>
+    <div style="text-align: center;">
     <h2>URL Encode/Decode</h2>
-    <textarea type="text" id="input" placeholder="Enter the text that you wish to encode or decode."  rows="15" cols="60"></textarea>
+    <textarea style="margin-right: 20px;" type="text" id="input" placeholder="Enter the text that you wish to encode or decode."  rows="15" cols="60"></textarea>
     <textarea type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea>
+   </div>
     <br>
-    <br>
+    <div style="text-align: center;">
     <input type="button" id="encode-button" value= "Encode url">
     <input type="button" id="decode-button" value= "Decode url">
+    <input type="button" id="reset-button" value= "Reset">
+  </div>
   </main>
   <hr>
 
