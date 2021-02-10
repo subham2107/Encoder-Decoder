@@ -17,7 +17,7 @@
       <div class="dropdown-content">
         <a href="./Base64Encode.html">Base64 Encode</a>
         <a href="./Base64Decode.html">Base64 Decode</a>
-        <a href="#">URL Encode Decode</a>
+        <a href="./URLEncodeDecode.html">URL Encode Decode</a>
       </div>
       </div>
       <div class="dropdown-nav">Hash Generator <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
@@ -28,19 +28,33 @@
         <a href="./SHA512HashGenerator.html">SHA-512 Hash Generator</a>
       </div>
       </div>
-      <div class="dropdown-nav">Color Converter</div>
-      <div class="dropdown-nav">Time Converter</div> 
-      <div class="dropdown-nav">Number Base Converter</div>
-      <div class="dropdown-nav">String Utilities</div>
-      <div class="dropdown-nav">Unit Converter</div>       
+      <div class="other-websites">
+        <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
+      </div>
+      <div class="other-websites">
+        <a href="https://my-time-stamp-converter.netlify.app/epochtohuman" target="_blank">Time Converter</a>
+      </div> 
+      <div class="other-websites">
+        <a href="https://my-number-base-converter.netlify.app/decimaltobinary" target="_blank">Number Base Converter</a>
+      </div>
+      <div class="other-websites">
+        <a href="https://my-string-utilities.netlify.app/stringutilities" target="_blank">String Utilities</a>
+      </div>
+      <div class="other-websites">
+        <a href="#" >Unit Converters</a>
+      </div >        
   </header>
   <main>
+    <div style="text-align: center;">
     <h2>Use this generator to create an SHA-1 hash of a string:</h2>
-    <textarea type="text" id="input" placeholder="Enter the text that you wish to encode or decode."  rows="15" cols="60"></textarea>
+    <textarea style="margin-right: 15px;" type="text" id="input" placeholder="Enter the text that you wish to generate a hash of."  rows="15" cols="60"></textarea>
     <textarea type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea>
+    </div>
     <br>
-    <br>
+    <div style="text-align: center;">
     <input type="button" id="generate-button" value= "Generate">
+    <input type="button" id="reset-button" value= "Reset">
+    </div>
   </main>
   <hr>
 

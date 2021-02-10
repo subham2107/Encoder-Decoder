@@ -53,7 +53,17 @@ body{
   } 
 
   .dropdown-nav:hover{
+    cursor: pointer;
     color:#3498db;
+  }
+  .other-websites a{
+    color:rgb(77, 80, 83);;
+    text-decoration: none;
+  }
+
+  .other-websites a:hover{
+    color:#3498db;
+    text-decoration:underline;
   }
 
   .navbar {
@@ -68,7 +78,7 @@ body{
         
   } 
 
-  .main-content{
+  /*.main-content{
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -79,15 +89,8 @@ body{
     min-width: 600px;
     margin: 0 auto;
     display:inline;
-    margin: 0 auto;*/
-  } 
-
-
-  .my-buttons{
-    word-spacing: 20px;
-    display: inline;
-    
-  }
+    margin: 0 auto;
+  } */
 
   .dropdown-arrow{
     height: 10px;
