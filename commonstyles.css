@@ -54,15 +54,16 @@ body{
 
   .dropdown-nav:hover{
     cursor: pointer;
-    color:#3498db;
+    color:#388bfd;
   }
+
   .other-websites a{
     color:rgb(77, 80, 83);;
     text-decoration: none;
   }
 
   .other-websites a:hover{
-    color:#3498db;
+    color:#388bfd;
     text-decoration:underline;
   }
 
@@ -97,9 +98,28 @@ body{
     width: 10px
   }
 
-  .portfolio-link-img{
-    max-height: 200px;
-    min-height: 200px;
-    max-width: 400px;
-    min-width: 400px;  
+
+  .content-info{
+    margin: auto;
+    max-width: 1000px;    
+  }
+
+  .content-info a{
+    color:rgb(77, 80, 83);;
+    text-decoration: none;
+  }
+  .content-info a:hover{
+    text-decoration:underline;
+
+  }
+
+  .footer-logo img{
+    height: 40px;
+    width: 40px;
+    filter: grayscale(100%);
+  }
+
+  .footer-logo img:hover{
+    filter: grayscale(0%);
+    
   }

@@ -27,6 +27,7 @@
         <a href="#">SHA-256 Hash Generator</a>
         <a href="./SHA512HashGenerator.html">SHA-512 Hash Generator</a>
       </div>
+      </div>
       <div class="other-websites">
         <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
       </div>
@@ -41,7 +42,7 @@
       </div>
       <div class="other-websites">
         <a href="#" >Unit Converters</a>
-      </div >       
+      </div >        
   </header>
   <main>
     <div style="text-align: center;">
@@ -49,20 +50,32 @@
     <textarea style="margin-right: 15px;" type="text" id="input" placeholder="Enter the text that you wish to generate a hash of."  rows="15" cols="60"></textarea>
     <textarea type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60"></textarea>
     </div>
-    <br>
-    <div style="text-align: center;">
+    <div style="text-align: center;margin-top:20px;">
     <input type="button" id="generate-button" value= "Generate">
     <input type="button" id="reset-button" value= "Reset">
     </div>
   </main>
-  <hr>
-
-  <footer>
-    Contact me
-
-
-
+  <section>
+    <div class="content-info" style="text-align: justify;">
+    <h3 style="padding-top: 10px;text-align: center;">What is a SHA-256 Hash?</h3>
+    <p>SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designed by the United States National Security Agency (NSA) and first published in 2001.[3][4] They are built using the Merkle–Damgård construction, from a one-way compression function itself built using the Davies–Meyer structure from a specialized block cipher.</p>
+     <p>SHA-2 includes significant changes from its predecessor, SHA-1. The SHA-2 family consists of six hash functions with digests (hash values) that are 224, 256, 384 or 512 bits: SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, SHA-512/256. SHA-256 and SHA-512 are novel hash functions computed with 32-bit and 64-bit words, respectively.</p>
+     <p>They use different shift amounts and additive constants, but their structures are otherwise virtually identical, differing only in the number of rounds. SHA-224 and SHA-384 are truncated versions of SHA-256 and SHA-512 respectively, computed with different initial values. SHA-512/224 and SHA-512/256 are also truncated versions of SHA-512, but the initial values are generated using the method described in Federal Information Processing Standards (FIPS) PUB 180-4.</p>
+     <p>You can check out more about it 
+       <a style="color:#388bfd;" href ="https://en.wikipedia.org/wiki/SHA-2" target="_blank">here.</a></p>
+      </div>     
+    
+  <footer style="background-color:#24292e;">
+    <div class="footer-info" style="text-align: center;color:white;">
+      <p style="padding-top: 10px;">Check out my profiles here:</p>
+       <div class="footer-logo" >
+         <a href="https://www.linkedin.com/in/subham-mitra/" target="_blank"><img src="Images/linkedin.svg"></a>
+         <a style="margin-left: 10px;margin-right: 10px;" href="https://github.com/subham2107" target="_blank"><img src="Images/github.svg"></a>
+         <a href="https://twitter.com/subham2107" target="_blank"><img src="Images/twitter.svg"></a>
+        </div>
+    </div>
   </footer>
+</section>
 
   
 </body>
