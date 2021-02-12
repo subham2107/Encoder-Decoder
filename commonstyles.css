@@ -6,7 +6,8 @@ body{
 }
 #encode-button,
 #decode-button,
-#generate-button {
+#generate-button,
+#convert-button {
     background-color: #276ef1;
     color: #fff;
     font-size: 16px;
@@ -111,6 +112,18 @@ body{
   .content-info a:hover{
     text-decoration:underline;
 
+  }
+
+  .footer-wrapper{
+    min-height: 45px;
+  }
+
+  .non-footer {
+    min-height: calc(100vh - 17px);
+  }
+
+  .footer-logo{
+    padding-bottom: 10px;
   }
 
   .footer-logo img{
