@@ -136,3 +136,18 @@ body{
     filter: grayscale(0%);
     
   }
+
+  @media screen and (max-width: 1124px) {
+    body {
+      font-size: 15px;
+    }
+
+  }
+  @media screen and (max-width: 925px){
+
+  textarea{
+    height: 100px;
+    width: 300px;
+
+  }
+}
