@@ -103,7 +103,9 @@ body{
 
   .content-info{
     margin: auto;
-    max-width: 1000px;    
+    max-width: 1000px; 
+    line-height: 2;  
+     
   }
 
   .content-info a{
@@ -152,11 +154,7 @@ body{
 
 @media screen and (max-width: 925px){
 
-  textarea{
-    height: 100px;
-    width: 300px;
-
-  }
+  
   .content-info{
     margin: auto;
     max-width: 500px;    
@@ -168,11 +166,7 @@ body{
 
  @media screen and (max-width: 655px) {
 
-  textarea{
-    height: 70px;
-    width: 210px;
-
-  }
+  
   
     .content-info{
       margin: auto;
@@ -182,19 +176,12 @@ body{
 
 @media screen and (max-width: 475px) {
 
-  .input-output{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: 300px;
-    margin: auto;
-
-  }
-
+  
   textarea{
-    margin-left:30px;
-    margin-bottom: 20px;
+    
+    height: 120px;
+    width: 320px;
+    
 
   }
   
@@ -203,50 +190,19 @@ body{
       max-width: 300px;    
     }
 
-#encode-button,
-#decode-button,
-#generate-button,
-#convert-button ,
-#reset-button{
-      margin-top: 10px;
-      padding: 7px ;
-      width : 80px;
-    }
+    #encode-button,
+    #decode-button,
+    #generate-button,
+    #convert-button ,
+    #reset-button{
+          margin-top: 10px;
+          padding: 7px ;
+          width : 90px;
+        }
+    
 
     
 }
 
 
-@media screen and (max-width: 365px) {
 
-  .input-output{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: 300px;
-    margin: auto;
-
-  }
-
-  textarea{
-    margin-left:30px;
-
-  }
-  
-    .content-info{
-      margin: auto;
-      max-width: 300px;    
-    }
-
-#encode-button,
-#decode-button,
-#generate-button,
-#convert-button ,
-#reset-button{
-      margin-top: 10px;
-      padding: 2px ;
-      width : 75px;
-    }
-
-}

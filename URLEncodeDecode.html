@@ -14,7 +14,6 @@
 <body>
   <div class="non-footer">
   <header class="navbar">
-    <header class="navbar">
       <div class="dropdown-nav"><img style="margin-top: 14px;" src ="Images/menu-24px.svg">
         <div class="dropdown-content">
           <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
@@ -34,7 +33,8 @@
         <a href="./SHA256HashGenerator.html">SHA-256 Hash Generator</a>
         <a href="./SHA512HashGenerator.html">SHA-512 Hash Generator</a>
       </div>
-      </div>       
+      </div>
+             
       <div style="font-size: 30px;"><a style="color:rgb(77, 80, 83);text-decoration: none;" href="https://my-utility-tools.netlify.app/" target="_blank">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</a></div>
     
   </header>
@@ -43,15 +43,33 @@
     <h2 style="text-align: center;">URL Encode/Decode</h2>
     <div class="input-output">
       <div>
-    <textarea style="margin-right: 15px;" type="text" id="input" placeholder="Enter input."  rows="15" cols="60"></textarea>
-    <textarea type="text" id="output" placeholder="Output." rows="15" cols="60" readonly></textarea>
-   </div>
-    <div style="margin-top:20px;">
-    <input type="button" id="encode-button" value= "Encode">
-    <input type="button" id="decode-button" value= "Decode">
-    <input type="button" id="reset-button" value= "Reset">
-  </div>
+    <textarea style="margin-right: 15px;" type="text" id="input" placeholder="Enter input"  rows="15" cols="60"></textarea>
+      </div>
+    <div style="margin-top:20px;margin-bottom:20px;">
+      <input type="button" id="encode-button" value= "Encode">
+      <input type="button" id="decode-button" value= "Decode">
+      <input type="button" id="reset-button" value= "Reset">
     </div>
+    <div>
+    <textarea type="text" id="output" placeholder="Output" rows="15" cols="60" readonly></textarea>
+   </div>
+    
+    </div>
+
+    <!--
+      <div class="input-output">
+      <div>
+        <textarea  type="text" id="input" placeholder="Enter input" rows="15" cols="60"></textarea>
+        </div>
+        <div style="margin-top:20px;margin-bottom:20px;">
+          <input type="button" id="generate-button" value= "Generate">
+          <input type="button" id="reset-button" value= "Reset">
+          </div>
+        <div>
+        <textarea type="text" id="output" placeholder="Output" rows="15" cols="60" readonly></textarea>  
+      </div>
+</div>
+    -->
   </main>
   <section>
     <div class="content-info" style="text-align: justify;">
