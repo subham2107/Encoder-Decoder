@@ -14,45 +14,37 @@
 <body>
   <div class="non-footer">
   <header class="navbar">
-    <div style="font-size: 30px;"><a style="color:rgb(77, 80, 83);text-decoration: none;" href="https://my-utility-tools.netlify.app/" target="_blank">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</a></div>
+    <header class="navbar">
+      <div class="dropdown-nav"><img style="margin-top: 14px;" src ="Images/menu-24px.svg">
+        <div class="dropdown-content">
+          <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
+          <a href="https://my-time-stamp-converter.netlify.app/epochtohuman" target="_blank">Time Converter</a>
+          <a href="https://my-number-base-converter.netlify.app/decimaltobinary" target="_blank">Number Base Converter</a>
+          <a href="https://my-string-utilities.netlify.app/stringutilities" target="_blank">String Utilities</a>
+          <a href="https://my-unit-converter.netlify.app/temperature.html" target="_blank" >Unit Converters</a>
+        </div>
+        </div>
       <div class="dropdown-nav">Encoder/Decoder <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
       <div class="dropdown-content">
         <a href="./Base64Encode.html">Base64 Encode</a>
         <a href="./Base64Decode.html">Base64 Decode</a>
         <a href="#">URL Encode Decode</a>
-      </div>
-      </div>
-      <div class="dropdown-nav">Hash Generator <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
-      <div class="dropdown-content">
         <a href="./MD5HashGenerator.html">MD5 Hash Generator</a>
         <a href="./SHA1HashGenerator.html">SHA-1 Hash Generator</a>
         <a href="./SHA256HashGenerator.html">SHA-256 Hash Generator</a>
         <a href="./SHA512HashGenerator.html">SHA-512 Hash Generator</a>
       </div>
-      </div>
-      <div class="other-websites">
-        <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
-      </div>
-      <div class="other-websites">
-        <a href="https://my-time-stamp-converter.netlify.app/epochtohuman" target="_blank">Time Converter</a>
-      </div> 
-      <div class="other-websites">
-        <a href="https://my-number-base-converter.netlify.app/decimaltobinary" target="_blank">Number Base Converter</a>
-      </div>
-      <div class="other-websites">
-        <a href="https://my-string-utilities.netlify.app/stringutilities" target="_blank">String Utilities</a>
-      </div>
-      <div class="other-websites">
-        <a href="https://my-unit-converter.netlify.app/temperature.html" target="_blank" >Unit Converters</a>
-      </div >       
+      </div>       
+      <div style="font-size: 30px;"><a style="color:rgb(77, 80, 83);text-decoration: none;" href="https://my-utility-tools.netlify.app/" target="_blank">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</a></div>
+    
   </header>
   <main>
     
     <h2 style="text-align: center;">URL Encode/Decode</h2>
     <div class="input-output">
       <div>
-    <textarea style="margin-right: 15px;" type="text" id="input" placeholder="Enter the text that you wish to encode or decode."  rows="15" cols="60"></textarea>
-    <textarea type="text" id="output" placeholder="Your results will appear here." rows="15" cols="60" readonly></textarea>
+    <textarea style="margin-right: 15px;" type="text" id="input" placeholder="Enter input."  rows="15" cols="60"></textarea>
+    <textarea type="text" id="output" placeholder="Output." rows="15" cols="60" readonly></textarea>
    </div>
     <div style="margin-top:20px;">
     <input type="button" id="encode-button" value= "Encode">
